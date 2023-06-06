@@ -15,7 +15,7 @@
 
  */
 import Vue from 'vue';
-import App from './App.vue';
+import App from './src/App.vue';
 // You can change this import to `import router from './starterRouter'` to quickly start development from a blank layout.
 import router from './src/router';
 import NowUiKit from './src/plugins/now-ui-kit';
