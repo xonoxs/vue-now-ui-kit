@@ -7,3 +7,15 @@ module.exports = {
     sourceMap: process.env.NODE_ENV !== 'production' ? "/xonoxs.github.io/" : "./src/assets/",
   }
 }
+
+var path = require('path');
+module.exports = {
+	configureWebpack : {
+		resolve: {
+	        modules : [
+		        path.resolve("./src"),
+	            path.resolve("./node_modules")
+	        ]
+	    },
+	}
+}
