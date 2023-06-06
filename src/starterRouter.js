@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Starter from './src/pages/StarterPage.vue';
-import StarterNavbar from './src/layout/StarterNavbar.vue';
-import StarterFooter from './src/layout/StarterFooter.vue';
+import Starter from './pages/StarterPage.vue';
+import StarterNavbar from './layout/StarterNavbar.vue';
+import StarterFooter from './layout/StarterFooter.vue';
 
 Vue.use(Router);
 
