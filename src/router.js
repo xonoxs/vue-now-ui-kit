@@ -1,11 +1,11 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Index from './pages/Index.vue';
-import Landing from './pages/Landing.vue';
-import Login from './pages/Login.vue';
-import Profile from './pages/Profile.vue';
-import MainNavbar from './layout/MainNavbar.vue';
-import MainFooter from './layout/MainFooter.vue';
+import Index from './src/pages/Index.vue';
+import Landing from './src/pages/Landing.vue';
+import Login from './src/pages/Login.vue';
+import Profile from './src/pages/Profile.vue';
+import MainNavbar from './src/layout/MainNavbar.vue';
+import MainFooter from './src/layout/MainFooter.vue';
 
 Vue.use(Router);
 
