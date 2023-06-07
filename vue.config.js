@@ -2,9 +2,9 @@ module.exports = {
   pages: {
     index: {
       // entry for the page
-      entry: './src/main.js',
+      entry: '/src/main.js',
       // the source template
-      template: './public/index.html',
+      template: '/public/index.html',
       // output as dist/index.html
       filename: 'index.html',
       // when using title option,
@@ -18,6 +18,6 @@ module.exports = {
     // template is inferred to be `public/subpage.html`
     // and falls back to `public/index.html` if not found.
     // Output filename is inferred to be `subpage.html`.
-    subpage: './src/main.js'
+    subpage: '/src/main.js'
   }
 }
