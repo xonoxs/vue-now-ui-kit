@@ -2,9 +2,9 @@ module.exports = {
   pages: {
     index: {
       // entry for the page
-      entry: '/src/main.js',
+      entry: '/xonoxs.github.io/src/main.js',
       // the source template
-      template: '/public/index.html',
+      template: '/xonoxs.github.io/public/index.html',
       // output as dist/index.html
       filename: 'index.html',
       // when using title option,
